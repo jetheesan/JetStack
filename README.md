@@ -34,30 +34,33 @@ JetStack is a habit-forming web application designed to help users build and sus
 
 ### Cloning the Repository
 
-```bash
+```
 git clone https://github.com/yourusername/jetstack.git
 cd jetstack
 
 npm install
+```
+### Setting Up Environment Variables
 
-Setting Up Environment Variables
-Create a .env file in the root directory and add your Firebase credentials:
+Create a `.env` file in the root directory and add your Firebase credentials:
 
+```
 JETSTACK_FIREBASE_API_KEY="your-api-key"
 JETSTACK_FIREBASE_AUTH_DOMAIN="your-auth-domain"
 JETSTACK_FIREBASE_PROJECT_ID="your-project-id"
 JETSTACK_FIREBASE_STORAGE_BUCKET="your-storage-bucket"
 JETSTACK_FIREBASE_MESSAGING_SENDER_ID="your-messaging-sender-id"
 JETSTACK_FIREBASE_APP_ID="your-app-id"
+```
+### Running the Application
 
-Running the Application
-npm start
-
-
-Running Tests
-npm test
+```npm start```
 
 
-Contributing
+### Running Tests
+```npm test```
+
+
+### Contributing
 Contributions are welcome! Please follow the coding style guidelines and ensure tests pass before submitting pull requests.
 
