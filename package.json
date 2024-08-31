@@ -1,0 +1,14 @@
+{
+  "name": "jetstack",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test:auth": "node tests/testAuth.js",
+    "test:firestore": "node tests/testFirestore.js",
+    "test": "npm run test:auth && npm run test:firestore"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "firebase": "^10.13.1"
+  }
+}
