@@ -6,12 +6,12 @@ import { getFirestore } from "firebase/firestore";// TODO: Add SDKs for Firebase
 
 // Your web app's Firebase configuration
 export const firebaseConfig = {
-    apiKey: "AIzaSyC_sDkzUBQnm2EoqS01hphAc1v5E3pKXz4",
-    authDomain: "jetstack-281bf.firebaseapp.com",
-    projectId: "jetstack-281bf",
-    storageBucket: "jetstack-281bf.appspot.com",
-    messagingSenderId: "655843431045",
-    appId: "1:655843431045:web:1ae71ea06e9f50d1838fec"
+    apiKey: process.env.JETSTACK_FIREBASE_API_KEY,
+    authDomain: process.env.JETSTACK_FIREBASE_AUTH_DOMAIN,
+    projectId: process.env.JETSTACK_FIREBASE_PROJECT_ID,
+    storageBucket: process.env.JETSTACK_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: process.env.JETSTACK_FIREBASE_MESSAGING_SENDER_ID,
+    appId: process.env.JETSTACK_FIREBASE_APP_ID
 };
 
 // Initialize Firebase
