@@ -1,0 +1,11 @@
+1.Sign up 
+2.Sign in 
+3.Dash Board
+    Habits 
+    Add habit 
+    Current Status 
+4.Detail
+6.Update button
+7.Archive/Delete habit
+
+----Feature Log-----
